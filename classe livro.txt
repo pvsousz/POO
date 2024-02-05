@@ -1,0 +1,75 @@
+classe livro
+	Atributos:
+
+	n-de-paginas: int 150
+	Conteudo: caractere Politica
+	Tamanho: real  20,3/ 5,2 cm
+	Data: inteiro 29/05/2015
+	Autor: caractere José Simas
+	Capa : Lógico Capa dura Verdadeiro 
+	
+	Metodos:
+
+	Abrir()
+	Ler()
+	Fechar()
+	Marcar()
+	
+	
+	Estado:
+	Aberto
+	30% lido
+	Capa dura
+	
+
+fim classe
+
+
+Classe cadeira
+	Atributos:
+
+	Material: caractere
+	Cor: caractere
+	Peso: real
+	valor: real
+		
+	Metodos:
+	Sentar()
+	Guardar()
+	
+
+	Estado:
+	Madeira
+	Branca
+	700 gramas
+	
+
+fim classe
+
+classe estudar
+	Atributos:
+
+	Horas-de-estudo: inteiro
+	Conteudo: caractere
+	N-de-exercicios: inteiro
+	horas-de-conversação: inteiro
+
+	Metodos:
+	Começar()
+	Terminar()
+	Confirmar()
+	Adiar()
+	Agendar()
+	Exercitar()	
+
+	Estado:
+	Estudando
+	Terminando
+	A confirmar
+	Pendente
+	Planejando
+
+fim classe
+
+
+	
