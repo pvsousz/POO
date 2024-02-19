@@ -3,6 +3,7 @@ public class App {
         ControleRemoto c = new ControleRemoto();
         c.ligar();
         c.abrirMenu();
+        c.maisVolume();
         
     }
 }
