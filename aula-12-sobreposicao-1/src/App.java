@@ -6,18 +6,14 @@ public class App {
         Ave a = new Ave();
 
 
-        m.setPeso((float)35.2);
-        m.setCorPelo("Preto");
-        m.alimentar();
-        m.locomover();
-        m.emitirSom();
+        Canguru c = new Canguru();
+        Cachorro k = new Cachorro();
+           
         
-        r.setCorEscama("Listras");
-        r.alimentar();
-        r.locomover();
-        r.emitirSom();
-
-        a.locomover();
+        c.locomover();
+        k.locomover();
+        k.emitirSom();
+        c.emitirSom();
         
     }
 }
